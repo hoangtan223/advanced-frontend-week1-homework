@@ -6,7 +6,7 @@
       <button @click="sortHighest()">Highest rated</button>
     </div>
     <ul>
-      <li v-for="(movie,index) in movies" :key="index" v-if="index < 15" :class=" movie.vote_average > 8.2 ? 'blue-background' : ''">
+      <li v-for="(movie,index) in movies" :key="index" v-if="index < 15" class="movie-item" :style="{ opacity: Math.floor(movie.vote_average) / 10 }">
         {{movie.title}} <span>{{movie.vote_average}}</span>
       </li>
     </ul>

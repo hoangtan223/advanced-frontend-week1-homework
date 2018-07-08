@@ -52,10 +52,6 @@ li {
     padding: 5px;
 }
 
-li:nth-child(even) {
-    background-color: #efefef;
-}
-
 .nav {
     margin: 0 0 20px;
 }
@@ -64,6 +60,6 @@ li:nth-child(even) {
     font-size: 18px;
 }
 
-.blue-background {
-    background: #5fdcfb;
+.movie-item {
+    background: #0072c8;
 }
