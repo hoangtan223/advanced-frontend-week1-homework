@@ -2,6 +2,10 @@
 
 > A Vue.js project
 
+# Info
+
+> Creator: Tan Bui - hoangtan223@gmail.com
+
 ## Build Setup
 
 ``` bash
